@@ -1,0 +1,130 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+nav ul {
+	list-style: none;
+	background-color: #1e1e1e;
+}
+nav > ul > li {
+	float: left;
+}
+nav ul::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+nav ul li a {
+	display: inline-block;
+	padding: 10px 20px;
+	text-decoration: none;
+	color: white;
+	width: 125px;
+}
+nav ul li a:hover {
+	background-color: #950740;
+}
+nav ul ul {
+	display: none;
+	position: absolute;
+}
+nav ul li:hover ul {
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+.divTable{
+	display:table;
+	width: 100%;
+}
+body {
+	background-color: #f1f1f1;
+	font-size: 16px;
+	font-weight: normal;
+
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:active {
+	color: blue;
+}
+
+.avatar {
+	width: 200px;
+	border-radius: 50%
+	
+}
+
+.container{
+	width: 750px;
+	margin: 2em auto;
+	margin: auto;
+}
+
+.social {
+	background: #7fff00;
+	padding: 10px;
+	border:5px solid #ffff00;
+	margin: 20px;
+}
+/.divTable{
+	display: table;
+	width: 100%;
+}
+.divTableRow {
+	display: table-row;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+}
+.divTableCell, .divTableHead {
+	border: 2px solid #999999;
+	display: table-cell;
+	padding: 70px 70px;
+}
+.divTableHeading {
+	background-color: #EEE;	
+	display: table-header-group;
+	font-weight: bold;
+}
+.divTableFoot {
+	background-color: #EEE;
+	display: table-footer-group;
+	font-weight: bold;
+}
+.divTableBody {
+	display: table-row-group;
+}
+
+.card {
+	padding: 2
+	margin-right:0 30;
+	background: #ffebcd;
+	
+
+
+
+
+
+
+
+
+
+
+
